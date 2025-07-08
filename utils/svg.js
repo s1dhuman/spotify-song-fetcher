@@ -21,4 +21,3 @@ export function createSvg(track) {
     <text x="120" y="75" class="artist">${artistNames}</text>
   </svg>`;
 }
-  
