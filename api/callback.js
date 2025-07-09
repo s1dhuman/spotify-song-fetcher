@@ -1,6 +1,8 @@
 // api/callback.js
 import fetch from 'node-fetch';
-import 'dotenv/config'; // loads .env
+
+// not needed anymore
+// import 'dotenv/config'; // loads .env
 
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
