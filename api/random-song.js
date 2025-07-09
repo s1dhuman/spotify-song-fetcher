@@ -1,7 +1,7 @@
 // api/random-song.js
 
 
-import { getAccessToken } from './callBack.js';
+import { getAccessToken } from './callback.js';
 import { createSvg } from '../utils/svg.js';
 import fetch from 'node-fetch';
 
